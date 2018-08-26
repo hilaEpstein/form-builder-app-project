@@ -129,11 +129,11 @@ export default class FormSubmitPage extends React.Component {
             <div className="container">
                 <form onSubmit={this.handleSubmitForm}>
                     {this.state.forms[0].fields.map((field, index) =>
-                        <div class="row" key={index + field.label}>
-                                <div class="col-25">
-                                    <label for="label">{field.label}:</label>
+                        <div className="row" key={index + field.label}>
+                                <div className="col-25">
+                                    <label htmlFor="label">{field.label}:</label>
                                 </div>
-                                <div class="col-75">
+                                <div className="col-75">
                                     <input type="text"
                                         placeholder={field.name}
                                         name={field.label}

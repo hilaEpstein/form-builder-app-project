@@ -90,27 +90,27 @@ export default class FormBuilderPage extends React.Component {
         return (
             <div className="container">
                 <form className="add-form" onSubmit={this.handleField}>
-                    <div  class="row">
-                        <div class="col-25">
-                            <label for="label">Field label</label>
+                    <div  className="row">
+                        <div className="col-25">
+                            <label htmlFor="label">Field label</label>
                         </div>
-                        <div class="col-75">
+                        <div className="col-75">
                             <input if="label" type="text" placeholder="enter field label" name="label" />
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="inputName">Input name</label>
+                    <div className="row">
+                        <div className="col-25">
+                            <label htmlFor="inputName">Input name</label>
                         </div>
-                        <div class="col-75">
+                        <div className="col-75">
                             <input id="inputName" type="text" placeholder="enter input name" name="name" />
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="type">Type</label>
+                    <div className="row">
+                        <div className="col-25">
+                            <label htmlFor="type">Type</label>
                         </div>
-                        <div class="col-75">
+                        <div className="col-75">
                             <select name="type" >
                                 <option value="text">text</option>
                                 <option value="color">color</option>
@@ -121,7 +121,7 @@ export default class FormBuilderPage extends React.Component {
                             </select>
                         </div>
                     </div>
-                    <div class="row">
+                    <div className="row">
                         <button className="button">Add Field</button>
                     </div>
                 </form>
