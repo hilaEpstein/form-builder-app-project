@@ -21,9 +21,7 @@ Enjoy!
 
 
 - Server runs on http://localhost:5000 and client on http://localhost:3000
-- A link to the project's online mongo DataBase - https://mlab.com/databases/form_builder 
-  Name: admin
-  Password: admin123
+
   
   
   Hila Epstein
